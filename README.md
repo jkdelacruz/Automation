@@ -5,6 +5,7 @@
 ## Project Structure
 
 src/test/java/amaysimTesting: Contains the Java source code for test automation.
+
 src/test/java/Utility: provides a centralized setup and management utility for initializing WebDriver instances in Selenium-based test automation. It handles driver path settings, and configures global timeouts, ensuring a consistent and reusable WebDriver setup across tests.
 
 ## Execution
