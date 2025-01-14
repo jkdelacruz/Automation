@@ -40,7 +40,7 @@ Ensure you have the following dependencies installed:
 
 **Note:** Update Chrome webdriver path in test script.
 ```declarative
-/Users/*/*/chromedriver-mac-x64/chromedriver
+C:\*\chromedriver-win64\chromedriver.exe
 ```
 
 ---
