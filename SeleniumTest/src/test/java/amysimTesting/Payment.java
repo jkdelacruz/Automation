@@ -87,7 +87,7 @@ public class Payment extends BaseDriver {
         action.click(Address).perform();
 
         driver.switchTo().frame(driver.findElement(By.xpath("//div[@id='payment-element']//iframe")));
-        driver.findElement(By.xpath("//div[@aria-label='Payment Methods']//button[1]")).click();
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath ("//div[@aria-label='Payment Methods']//button[1]"))).click();
         driver.findElement(By.xpath("//input[@id='Field-numberInput']")).sendKeys("4242 4242 4242 4242");
         driver.findElement(By.xpath("//input[@id='Field-expiryInput']")).sendKeys("0127");
         driver.findElement(By.xpath("//input[@id='Field-cvcInput']")).sendKeys("123");
